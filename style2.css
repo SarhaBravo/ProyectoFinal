@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Days One', sans-serif;
+}   
+
+h1{
+    text-align: center;
+}
+section
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(./recursos/imagenes/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+}
